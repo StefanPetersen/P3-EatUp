@@ -33,7 +33,7 @@ public class AboutFragment extends Fragment {
 
         MenuItem item= menu.findItem(R.id.action_sort);
         item.setVisible(true);
-        MenuItem item2 = menu.findItem(R.id.action_settings);
-        item2.setVisible(true);
+        MenuItem item3 = menu.findItem(R.id.action_settings);
+        item3.setVisible(true);
     }
 }
