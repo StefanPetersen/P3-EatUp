@@ -32,8 +32,8 @@ public class AboutFragment extends Fragment {
             Menu menu, MenuInflater inflater) {
 
         MenuItem item= menu.findItem(R.id.action_sort);
-        item.setVisible(false);
+        item.setVisible(true);
         MenuItem item2 = menu.findItem(R.id.action_settings);
-        item2.setVisible(false);
+        item2.setVisible(true);
     }
 }
